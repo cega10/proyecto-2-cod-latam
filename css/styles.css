@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    padding-top: 70px;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    line-height: 1.2;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid #aa0c7b;
+    box-shadow: 5px 5px 5px #ddd;
+    font-size: 28px;
+}
+
+#titulo1 {
+    font-size: 36px;
+    color: rgb(26, 223, 26);
+    text-decoration: solid;
+}
+
+#inicio {
+    display: flex;
+    justify-content:space-between;
+    align-items:start;
+    flex-direction:row;
+    min-height: 50vh;
+    scroll-margin-top: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.active {
+    background:  rgba(175, 89, 158, 0.3);;
+    transition: background-color 15ms;
+}
+
+/*li.menu-item:hover,
+li.menu-item a.active,*/
+li.menu-item:hover{
+    background:  #aa0c7b;
+    color:rgba(235, 238, 235, 0.945);
+    transition: background-color 5s;
+}
+
+#hablemos {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    scroll-margin-top: 100px;
+    min-height: 50vh;
+
+}
+
+.formacion {
+    background-color: rgba(175, 89, 158, 0.3);
+    margin: 15px;
+    text-align: center;
+    color: #0f0f0f;
+}
+
+
+.iconos {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    /*text-decoration: none;*/
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+
+ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mascotas {
+    border-radius: 50%;
+    border: 4px solid #aa0c7b;
+    box-shadow: 12px 1px #af599e;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+p {
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+#descarga {
+    background-color: #af599e;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fbfbfb;
+    min-height: 5px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(199, 242, 243);
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-style: solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+
+#anclabonus {
+    display: none;
+    scroll-margin-top: 110px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 00px;
+    padding-bottom: 3px;
+}
+
+#anclabonus:target {
+    display: flex;
+}
+
+
+.grupo-de-formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+.subtitulo {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.cap {
+    background-color:rgba(175, 89, 158, 0.3);
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 17px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    width: 100%;
+    background-color: #af599e;
+    text-align: center;
+    color: #fbfbfb;
+    height: 90px;
+}
