@@ -50,8 +50,8 @@ header {
 
 #titulo1 {
     font-size: 36px;
-    color: rgb(26, 223, 26);
-    text-decoration: solid;
+    color: rgb(121, 145, 33);
+    text-decoration-line: underline;
 }
 
 #inicio {
