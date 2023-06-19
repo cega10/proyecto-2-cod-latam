@@ -87,6 +87,7 @@ li.menu-item:hover{
     flex-direction: column;
     scroll-margin-top: 100px;
     min-height: 50vh;
+    margin-top: 18px;
 
 }
 
@@ -180,12 +181,22 @@ h2 {
     justify-content: space-around;
     font-family: 'Lato', sans-serif;
     background-color: rgb(121, 145, 33);
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 50px;
     padding-bottom: 100px;
     border-style: solid;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.66);
     margin-top: 30px;
+}
+
+.form-control{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.boton-envio {
+   font-size: 25px;
+   padding: 5px;
 }
 
 
