@@ -11,6 +11,7 @@
 */
 
 /* Reset */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -92,15 +93,15 @@ li.menu-item:hover{
 .formacion {
     background-color: rgba(175, 89, 158, 0.3);
     margin: 15px;
-    text-align: center;
+    text-align:left;
     color: #0f0f0f;
 }
 
 
 .iconos {
     display: flex;
-    width: 85%;
-    justify-content: center;
+    width: 35%;
+    justify-content:space-between;
     align-items: center;
     flex-direction: row;
     margin-right: 25px;
@@ -211,6 +212,15 @@ h2 {
 
 }
 
+*#estudios {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    scroll-margin-top: 100px;
+    min-height: 50vh;
+}
 
 table {
     width: 100%;
@@ -228,6 +238,9 @@ td {
     font-size: 36px;
     text-align: center;
     width: 100%;
+    margin-bottom: 3px;
+    background-color:  rgb(121, 145, 33);
+    color: whitesmoke;
     
 }
 
