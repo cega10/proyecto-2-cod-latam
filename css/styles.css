@@ -51,14 +51,14 @@ header {
 }
 
 
-@media (min-width: 300px) {
+@media (max-width: 800px) {
     section {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
         scroll-margin-top: 100px;
-        width: 100%;
+        width: 98%;
         margin-left: 1px;
         margin-right: 1px;
         min-height: 50vh;
@@ -68,6 +68,7 @@ header {
         font-size: 36px;
         color: rgb(121, 145, 33);
         text-decoration-line: underline;
+        text-align: center;
     }
 
     p {
