@@ -71,8 +71,6 @@ header {
     transition: background-color 15ms;
 }
 
-/*li.menu-item:hover,
-li.menu-item a.active,*/
 li.menu-item:hover{
     background:  #aa0c7b;
     color:rgba(235, 238, 235, 0.945);
@@ -99,19 +97,28 @@ li.menu-item:hover{
 }
 
 
-.iconos {
+.menu-iconos {
     display: flex;
-    width: 35%;
+    width: 55%;
     justify-content:space-between;
     align-items: center;
     flex-direction: row;
-    margin-right: 25px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+}
+
+
+.iconos{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline;
+    background-color: #af599e;
+    padding: 10px;
+    border-radius: 20px;
 
 }
 
-/* Para quitar los puntos a los items de listas */
+Para quitar los puntos a los items de listas 
 ul {
     list-style: none;
 }
@@ -123,15 +130,13 @@ a {
     color: inherit;
 }
 
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
 
 ul li {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 
 .mascotas {
     border-radius: 50%;
@@ -182,11 +187,12 @@ h2 {
     font-family: 'Lato', sans-serif;
     background-color: rgb(121, 145, 33);
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 100px;
     border-style: solid;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.66);
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .form-control{
@@ -196,7 +202,10 @@ h2 {
 
 .boton-envio {
    font-size: 25px;
-   padding: 5px;
+   padding: 18px;
+   margin-bottom: 1px;
+   border-radius: 20px;
+
 }
 
 
@@ -223,7 +232,7 @@ h2 {
 
 }
 
-*#estudios {
+#estudios {
     display: flex;
     padding: 5px 10px;
     justify-content: start;
