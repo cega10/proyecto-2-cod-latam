@@ -26,6 +26,10 @@ body {
     padding-top: 70px;
 }
 
+.alinear-menu {
+margin-right: 100px;
+
+}
 main {
     max-width: 1200px;
     width: 100%;
@@ -233,6 +237,11 @@ h1 {
     margin-top: 20px;
 }
 
+.menudos {
+    display:flex
+    flex-direction: column;
+    .alinear-menu
+}
 
 #descarga {
     background-color: #af599e;
