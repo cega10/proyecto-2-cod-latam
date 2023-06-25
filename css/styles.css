@@ -53,109 +53,6 @@ header {
 }
 
 
-@media (max-width: 460px) {
-    header {
-        font-size: 20px;
-    }
-
-    .eidos {
-        width: 100px;
-
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-        scroll-margin-top: 100px;
-        width: 100%;
-        min-height: 50vh;
-
-    }
-
-    .menudos {
-
-        text-align: center;
-          
-            
-        }
-
-    #titulo1 {
-        font-size: 30px;
-        color: rgb(121, 145, 33);
-        text-decoration-line: underline;
-        text-align: center;
-    }
-
-    .subtitulo {
-        font-size: 20px;
-    }
-
-    p {
-        line-height: 1.2;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 8px;
-        margin-right: 8px;
-        text-align: justify;
-        font-size: 14px;
-    }
-    h2 {
-        font-size: 18px;
-        text-align: center;
-    }
-
-}
-
-
-/* desktop */
-@media (min-width: 1024px) {
-    section {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        min-height: 50vh;
-        scroll-margin-top: 100px;
-        width: 100%;
-        margin-top: 50px;
-
-
-    }
-
-
-    #titulo1 {
-        font-size: 42px;
-        color: rgb(121, 145, 33);
-        text-decoration-line: underline;
-    }
-
-    .subtitulo {
-        font-size: 36px;
-    }
-
-    p {
-        line-height: 1.2;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 8px;
-        margin-right: 8px;
-        text-align: justify;
-        font-size: 26px;
-    }
-
-    h2 {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .mascotas {
-
-        margin-top: 120px;
-
-    }
-}
 
 
 .active {
@@ -242,7 +139,7 @@ ul li {
 
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-top: 20px;
 }
 
@@ -361,4 +258,109 @@ footer {
     text-align: center;
     color: #fbfbfb;
     height: 90px;
+}
+@media (max-width: 460px) {
+    header {
+        font-size: 20px;
+    }
+/* logo de eido*/
+    .eidos {
+        width: 100px;
+
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        scroll-margin-top: 100px;
+        width: 100%;
+        min-height: 50vh;
+
+    }
+
+    /* alinea elemntos de la seccion */
+
+    .menudos {
+
+        text-align: center;
+          
+            
+        }
+
+   h1 {
+        font-size: 30px;
+        color: rgb(121, 145, 33);
+        text-decoration-line: underline;
+        text-align: center;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    p {
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+
+
+/* desktop */
+@media (min-width: 1024px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        min-height: 50vh;
+        scroll-margin-top: 100px;
+        width: 100%;
+        margin-top: 50px;
+
+
+    }
+
+
+    h1 {
+        font-size: 48px;
+        color: rgb(121, 145, 33);
+        text-decoration-line: underline;
+    }
+
+    .subtitulo {
+        font-size: 36px;
+    }
+
+    p {
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: justify;
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .mascotas {
+
+        margin-top: 120px;
+
+    }
 }
