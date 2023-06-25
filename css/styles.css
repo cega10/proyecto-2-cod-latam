@@ -56,7 +56,7 @@ header {
 
 
 .active {
-    background: rgba(175, 89, 158, 0.3);
+    background: rgba(175, 165, 89, 0.3);
     transition: background-color 15ms;
 }
 
