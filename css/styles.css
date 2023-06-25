@@ -23,7 +23,6 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #fbfbfb;
-    font-size: 18px;
     padding-top: 70px;
 }
 
@@ -42,7 +41,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     position: fixed;
     top: 0;
     border-bottom: 2px solid #aa0c7b;
@@ -53,30 +51,35 @@ header {
 
 @media (max-width: 800px) {
     header {
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .eidos {
+        width: 100px;
+
     }
 
     section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         margin-top: 50px;
         scroll-margin-top: 100px;
         width: 100%;
         min-height: 50vh;
-    
+
     }
 
     #titulo1 {
-        font-size: 36px;
+        font-size: 30px;
         color: rgb(121, 145, 33);
         text-decoration-line: underline;
         text-align: center;
     }
 
     .subtitulo {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     p {
@@ -86,6 +89,11 @@ header {
         margin-left: 8px;
         margin-right: 8px;
         text-align: justify;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+        text-align: center;
     }
 
 }
@@ -101,7 +109,7 @@ header {
         scroll-margin-top: 100px;
         width: 100%;
         margin-top: 50px;
-      
+
 
     }
 
@@ -132,9 +140,9 @@ header {
     }
 
     .mascotas {
-       
+
         margin-top: 120px;
-    
+
     }
 }
 
@@ -176,7 +184,7 @@ li.menu-item:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 
