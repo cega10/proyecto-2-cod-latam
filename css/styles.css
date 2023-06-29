@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-/* En este archivo escriban su CSS */
 
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
 
 /* Reset */
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
@@ -27,9 +18,10 @@ body {
 }
 
 .alinear-menu {
-margin-right: 100px;
+    margin-right: 100px;
 
 }
+
 main {
     max-width: 1200px;
     width: 100%;
@@ -248,7 +240,7 @@ td {
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     margin-top: 17px;
     padding-top: 10px;
@@ -259,24 +251,27 @@ footer {
     color: #fbfbfb;
     height: 90px;
 }
-/* @media (max-width: 460px) {*/
-@media screen and (min-width: 320px) and (max-width: 769px) {
+
+@media (max-width: 460px) {
+
     header {
         font-size: 20px;
     }
-/* logo de eido*/
+
+    /* logo de eido*/
     .eidos {
         width: 100px;
 
     }
-/* modifique de 100*/
+
+    /* modifique de 100*/
     .alinear-menu {
         margin-right: 10px;
-        
-        }
+
+    }
 
     section {
-      /* display:flex;*/
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -288,24 +283,25 @@ footer {
         margin-block: 90px;
 
     }
-  /*le quite los valores que tenia para centrar mi foto, referencia samsung galaxy s20*/
+
+    /*le quite los valores que tenia para centrar mi foto, referencia samsung galaxy s20*/
     .mascotas {
         margin-left: 0px;
         margin-right: 0px;
-    
+
     }
-    
+
 
     /* alinea elemntos de la seccion */
 
     .menudos {
 
         text-align: center;
-          
-            
-        }
 
-   h1 {
+
+    }
+
+    h1 {
         font-size: 30px;
         color: rgb(121, 145, 33);
         text-decoration-line: underline;
@@ -325,6 +321,7 @@ footer {
         text-align: justify;
         font-size: 14px;
     }
+
     h2 {
         font-size: 18px;
         text-align: center;
