@@ -240,7 +240,7 @@ td {
 footer {
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     flex-direction: column;
     margin-top: 17px;
     padding-top: 10px;
